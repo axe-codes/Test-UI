@@ -1,0 +1,68 @@
+.main-container {
+  /* border: 4px solid black; */
+  width: 1000px;
+  height: 800px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  background-color: gray;
+}
+
+.sub-container {
+  border: 4px solid blue;
+  width: 97%; /* Initially set the width to half of the main container */
+  height: 98%;
+  display: flex;
+  margin: 10px 10px 10px 10px; /* Set margin to create space between sub-containers */
+  resize: both;
+  overflow: auto; /* Changed 'scroll' to 'auto' to show scrollbars only when needed */
+  min-width: 10%;
+  min-height: 10%;
+  max-width: 98%;
+  max-height: 98%px;
+  flex-grow: 1; /* Make both sub-containers equally occupy the available space */
+}
+
+.inner-container {
+  display: flex;
+  border: 2px solid black;
+  width: 49%;
+  resize: both;
+  overflow: auto;
+  margin: 10px 10px 10px 10px;
+  flex-grow: 1;
+  max-height: 350px;
+  min-height: 50px;
+  min-width: 100px;
+  background-color: lightgray;
+}
+
+.sub {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.sub-1 {
+  width: 25%;
+}
+
+.sub-2 {
+  width: 75%;
+}
+
+.bg-image {
+  background-image: url("/spiderman.jpg"); /* Specify the path to your image */
+  background-size: cover; /* Cover the entire div */
+  background-position: top; /* Center the background image */
+}
+
+.white-text {
+  color: white;
+}
+
+.a-items {
+  align-items: center;
+}
