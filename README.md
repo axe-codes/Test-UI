@@ -1,8 +1,13 @@
-# React + Vite
+# Dipesh Sedani
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Task 1 - UI 
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Create a Layout based on following specifications
+● It consists of three different components with some content (feel free to
+add any HTML content or Images).
+● Users should be able to Resize the components by dragging them from
+any of the sides.
+● The neighbor components should expand or shrink based on re-sizing
+operations performed on the target component.
+● You can use any open-source Library.
+● Layout should be responsive on all laptop devices.
